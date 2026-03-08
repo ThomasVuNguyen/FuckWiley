@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+debug_*.py
+*debug*.png
+extractions/
+*.png
+*.jpg
+*.jpeg
+*.webp
+node_modules/
+.DS_Store
