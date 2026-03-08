@@ -1,0 +1,48 @@
+< Back Q AS Gy
+
+However, drivers had to provide different services from the same vehicle—for example, deferred service and premium service. They had some packages that had to be delivered by 10:30 AM, some that had to be delivered by
+noon, and some that had to be delivered by 2:00 PM. Drivers therefore had to decide how they were going to service those customers. With so many variables to consider, it was practically impossible for drivers to optimize their
+routes.
+
+Prescriptive Analytics. UPS realized that it needed to take analytics to the next level. So, in mid-2012, the company began deploying its On-Road Integrated Optimization and Navigation (ORION) system. ORION reorganizes the
+drivers' routes based on today's customers, today's needs, and today's packages, and it designs deliveries in a very specific, optimized order. ORION takes into account UPS business rules, maps, what time drivers need to be at
+specific locations, and customer preferences.
+
+When UPS drivers are on the road, they usually travel at speeds of 20-25 miles per hour. Therefore, every mile reduced equates to a savings of 2-3 minutes. Because ORION shortens routes by 7-8 miles per day, this savings
+enables UPS to deliver more packages.
+
+ORION enhances UPS customer service with more efficient routing, and it allows UPS to offer innovative services and customized solutions. An example of this type of service is UPS My Choice, which gives customers a one-
+day alert for the time a package is arriving, and allows them to control the timing and location of the delivery. By mid-2015, UPS My Choice had almost 13 million members.
+
+At the beginning of a shift, a UPS driver checks his DIAD, which displays two possible delivery routes. One route uses ORION, and the other uses UPS's traditional combination of work rules, procedures, and analytic tools.
+Drivers can choose either route, but if they decide not to use ORION, then they will be asked to explain their decisions. Driver reaction to ORION has been mixed. The experience can frustrate some drivers who might not want to
+surrender their autonomy or who might not follow ORION's logic in designing their routes.
+
+The Results
+
+In 2013, ORION saved 1.5 million gallons of fuel (on top of the 8.5 million gallons the firm was already saving). UPS gained those savings despite the fact that only 20 percent of its 50,000 drivers had adopted the system. UPS
+plans to complete the deployment of ORION by the end of 2016. When ORION is fully implemented, the system is expected to reduce the distance driven by its drivers by 100 million miles annually. Further, ORION will produce
+annual savings of $300 million as well as an additional 10 million gallons of fuel. In addition, ORION will produce further environmental benefits and cost reductions when UPS vehicles outside the United States are equipped
+with the technology.
+
+UPS continues to look into the future. Interestingly, ORION provides a natural link to driverless vehicles.
+
+However, ORION does not yet perform certain functions. For example, when drivers leave in the morning, the route they have in their DIAD does not change, meaning the system does not update routes if something goes wrong.
+In addition, ORION also does not take traffic or weather into account. UPS plans to integrate these features into subsequent upgrades of ORION.
+
+Sources: Compiled from C. Powers, “How UPS Augments Its Drivers' Intuition with Predictive Analytics,” ASUG News, June 9, 2015; E. Siegel, “Predictive Analytics Driving Results, ROI at UPS,” Data Informed, June 1, 2015;
+E. Siegel, “Wise Practitioner—Predictive Analytics Interview Series: Jack Levis of UPS,” Predictive Analytics World, April 28, 2015; J. Berman, “UPS Is Focused on the Future for Its ORION Technology,” Logistics
+Management, March 3, 2015; “UPS Moves Up Full ORION Rollout in U.S. Market to the End of 2016,” DC Velocity, March 2, 2015; J. Gidman, “Algorithm Will Tell All UPS Trucks Where to Go,” Newser, February 17, 2015;
+S. Rosenbush and L. Stevens, “At UPS, the Algorithm Is the Driver,” The Wall Street Journal, February 16, 2015; J. Dix, “How UPS Uses Analytics to Drive Down Costs,” Network World, December 1, 2014; K. Noyes, “The
+Shortest Distance Between Two Points? At UPS, It's Complicated,” Fortune, July 25, 2014; www.ups.com, accessed August 26, 2015.
+
+Questions
+
+1. Explain how DIADs were a descriptive analytics solution for UPS.
+
+2. Explain how the Package Flow Technologies system was a predictive analytics solution for UPS. 0
+3. Explain how the ORION system was a prescriptive analytics solution for UPS.
+
+4. Describe another notential avvlication for the UPS ORION svstem. That is. what is the next auestion that UPS managers might ask of the ORION svstem? ae
+
+————_ < [ risa | >
