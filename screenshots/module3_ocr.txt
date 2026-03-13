@@ -1,0 +1,3032 @@
+--- module3_chap3_first_page_rainer_1773025591846.png ---
+< Back
+
+[ue] Foundations of Data Analytics
+John W. Foreman
+
+Expand all | Collapse all
+
+vustui Vupyryit rage
+List of Titles
+Preface
+vy Module 1: The Value of Data
+«Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+vy Chapter 3: Data and Knowledge Management
+(Rainer)
+
+vy Module 4: Business Statistics
+
+vy Module 5: Optimization and Forecasting
+vy Module 6: Other Data Analytic Tools
+
+vy Module 7: Data Visualization
+
+End User License Agreement
+
+“=) Back to Page
+
+M1
+
+M2
+
+Fl
+
+M3
+
+R56
+
+M4
+
+MS
+
+M6
+
+M7
+
+EULA
+
+4
+
+CHAPTER 3
+
+\
+
+ZS
+
+© Oleksiy Mark/iStockphoto
+
+DATAAND KNOWLEDGE MANAGEMENT
+
+Chapter Outline
+3.1 Managing Data
+3.2 The Database Approach
+3.3 Big Data
+3.4 Data Warehouses and Data Marts
+3.5 Knowledge Management
+
+Learning Objectives
+3.1 Discuss ways that common challenges in managing data can be addressed using data governance.
+3.2 Discuss the advantages and disadvantages of relational databases.
+3.3 Define Big Data and its basic characteristics.
+3.4 Explain the elements necessary to successfully implement and maintain data warehouses.
+3.5 Describe the benefits and challenges of implementing knowledge management systems in organizations.
+--- module3_chap3_page2_rainer_1773025610870.png ---
+Foundations of Data Analytics
+
+Collapse alll
+
+List of Titles
+Module 1: The Value of Data
+
+Vv
+Zee Module 2: Working with Data
+
+Maechapter 1: Everything You Ever Needed to Know
+labout Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+Ze Module 3: Data Typologies and Governance
+Machapter 3: Data and Knowledge Management
+(Rainer)
+EE lt |
+
+a Module 5: Optimization and Forecasting iM5]
+ag Module 6: Other Data Analytic Tools iMé|
+¥ ee ees
+
+Module 7: Data Visualization
+
+End User License Agreement
+
+--- module3_chapter3_page10_1773026688152.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+i OM John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+Q A
+
+As we noted earlier in this chapter, organizations must manage huge quantities of data. Such data consist of structured and unstructured
+data and are called Big Data (discussed in Section 3.3). Unstructured data refers to data that does not reside in a traditional relational
+database. Examples of unstructured data include e-mail messages, word processing documents, videos, images, audio files, PowerPoint
+presentations, Facebook posts, tweets, snaps, ratings and recommendations, and Web pages. Industry analysts estimate that 80 to 90
+percent of the data in an organization is unstructured. To manage Big Data, many organizations are using special types of databases,
+which we also discuss in Section 3.3.
+
+Because databases typically process data in real time (or near real time), it is not practical to allow users access to the databases. After all,
+the data will change while the user is looking at them! As a result, data warehouses have been developed to allow users to access data for
+decision making. You will learn about data warehouses in Section 3.4.
+
+Before you go on...
+
+1. What is a data model?
+
+2. What is a primary key? A secondary key?
+
+3. What is an entity? An attribute? An instance?
+
+4. What are the advantages and disadvantages of relational databases?
+
+Apply the Concept 3.2
+
+Learning Objective 3.2
+Discuss the advantages and disadvantages of relational databases.
+STEP 1: Background
+
+This section has introduced you to the advantages and disadvantages of using a relational database. This is one of those concepts
+that cannot really be appreciated until you work through the process of designing a database. Even though very few people go on to
+become database administrators, it is still valuable to have some understanding of how a database is built and administered. In this
+activity, you will be presented with a scenario, and you will then apply the concepts you have just read about. In the process, you will
+develop a solid foundation to discuss the advantages and disadvantages of relational databases.
+
+STEP 2: Activity
+
+You are employed as the coordinator of multiple ongoing projects within a company. Your responsibilities include keeping track of the
+company's commercial projects, its employees, and the employees’ participation in each project. Usually, a project will have multiple
+team members, but some projects have not been assigned to any team members. For each project, the company must keep track of
+the project's title, description, location, estimated budget, and due date.
+
+Each employee can be assigned to one or more projects. Some employees can also be on leave and therefore will not be working
+on any assignments. Project leaders usually need to know the following information about their team members: name, address,
+phone number, Social Security number, highest degree attained, and his/her expertise (for example, IS, accounting, marketing,
+finance).
+
+Your manager has instructed you to present an overview of the advantages and disadvantages of a database that would support the
+
+&
+
+a~
+--- module3_chapter3_page12_1773026760733.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+3 billion times every day.
+¢ The 800 million monthly users of Google's YouTube service upload more than an hour of video every second.
+
+¢ The number of messages on Twitter is growing at 200 percent every year. By mid-2015, the volume exceeded 550 million tweets per
+day.
+
+Characteristics of Big Data
+Big Data has three distinct characteristics: volume, velocity, and variety. These characteristics distinguish Big Data from traditional data:
+
+1. Volume: We have noted the huge volume of Big Data. Consider machine-generated data, which are generated in much larger quantities
+than nontraditional data. For instance, sensors in a single jet engine can generate 10 terabytes of data in 30 minutes. (See our
+discussion of the Internet of Things in Chapter 10.) With more than 25,000 airline flights per day, the daily volume of data from just this
+single source is incredible. Smart electrical meters, sensors in heavy industrial equipment, and telemetry from automobiles compound
+the volume problem.
+
+2. Velocity: The rate at which data flow into an organization is rapidly increasing. Velocity is critical because it increases the speed of the
+feedback loop between a company, its customers, its suppliers, and its business partners. For example, the Internet and mobile
+technology enable online retailers to compile histories not only on final sales, but on their customers’ every click and interaction.
+Companies that can quickly utilize that information—for example, by recommending additional purchases—gain competitive advantage.
+
+3. Variety: Traditional data formats tend to be structured and relatively well described, and they change slowly. Traditional data include
+financial market data, point-of-sale transactions, and much more. In contrast, Big Data formats change rapidly. They include satellite
+imagery, broadcast audio streams, digital music files, Web page content, scans of government documents, and comments posted on
+social networks.
+
+Irrespective of their source, structure, format, and frequency, Big Data are valuable. If certain types of data appear to have no value today, it
+is because we have not yet been able to analyze them effectively. For example, several years ago when Google began harnessing satellite
+imagery, capturing street views, and then sharing these geographical data for free, few people understood its value. Today, we recognize
+that such data are incredibly valuable because analyses of Big Data yield deep insights. We discuss analytics in detail in Chapter 5.
+
+Issues with Big Data
+Despite its extreme value, Big Data does have issues. In this section, we take a look at data integrity, data quality, and the nuances of
+analysis that are worth noting.
+
+Big Data Can Come from Untrusted Sources.
+
+As we discussed above, one of the characteristics of Big Data is variety, meaning that Big Data can come from numerous, widely varied
+sources. These sources may be internal or external to the organization. For instance, a company might want to integrate data from
+unstructured sources such as e-mails, call center notes, and social media posts with structured data about its customers from its data
+warehouse. The question is, How trustworthy are those external sources of data? For example, how trustworthy is a tweet? The data may
+come from an unverified source. Further, the data itself, reported by the source, can be false or misleading.
+
+Big Data Is Dirty.
+
+Dirty data refers to inaccurate, incomplete, incorrect, duplicate, or erroneous data. Examples of such problems are misspelling of words and
+duplicate data such as retweets or companv press releases that aovear numerous times in social media.
+
+< | R67 | >
+
+--- module3_chapter3_page13_1773026809346.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+Q A
+
+Issues with Big Data
+
+Despite its extreme value, Big Data does have issues. In this section, we take a look at data integrity, data quality, and the nuances of
+analysis that are worth noting.
+
+Big Data Can Come from Untrusted Sources.
+
+As we discussed above, one of the characteristics of Big Data is variety, meaning that Big Data can come from numerous, widely varied
+sources. These sources may be internal or external to the organization. For instance, a company might want to integrate data from
+unstructured sources such as e-mails, call center notes, and social media posts with structured data about its customers from its data
+warehouse. The question is, How trustworthy are those external sources of data? For example, how trustworthy is a tweet? The data may
+come from an unverified source. Further, the data itself, reported by the source, can be false or misleading.
+
+Big Data Is Dirty.
+
+Dirty data refers to inaccurate, incomplete, incorrect, duplicate, or erroneous data. Examples of such problems are misspelling of words and
+duplicate data such as retweets or company press releases that appear numerous times in social media.
+
+Suppose a company is interested in performing a competitive analysis using social media data. The company wants to see how often a
+competitor's product appears in social media outlets as well as the sentiments associated with those posts. The company notices that the
+number of positive posts about the competitor is twice as large the number of positive posts about itself. This finding could simply be a case
+where the competitor is pushing out its press releases to multiple sources, in essence “blowing its own horn.” Alternatively, the competitor
+could be getting many people to retweet an announcement.
+
+Big Data Changes, Especially in Data Streams.
+
+Organizations must be aware that data quality in an analysis can change, or the data itself can change, because the conditions under which
+the data are captured can change. For instance, imagine a utility company that analyzes weather data and smart-meter data to predict
+customer power usage. What happens when the utility is analyzing this data in real time and it discovers data missing from some of its
+smart meters?
+
+Managing Big Data
+
+Big Data makes it possible to do many things that were previously impossible; for example, to spot business trends more rapidly and
+accurately, prevent disease, track crime, and so on. When properly analyzed, Big Data can reveal valuable patterns and information that
+were previously hidden because of the amount of work required to discover them. Leading corporations, such as Walmart and Google,
+have been able to process Big Data for years, but only at great expense. Today's hardware, cloud computing (see Plug IT In 4), and open-
+source software make processing Big Data affordable for most organizations.
+
+The first step for many organizations toward managing data was to integrate information silos into a database environment and then to
+develop data warehouses for decision making. (An information silo is an information system that does not communicate with other, related
+information systems in an organization.) After completing this step, many organizations turned their attention to the business of information
+management—making sense of their proliferating data. In recent years, Oracle, IBM, Microsoft, and SAP have spent billions of dollars
+purchasing software firms that specialize in data management and business intelligence. (You will learn about business intelligence in
+Chapter 5.)
+
+In addition to existing data management systems, today many organizations employ NoSQL databases to process Big Data. Think of them
+
+< | R68 | >
+
+--- module3_chapter3_page14_1773026839751.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+Managing Big Data
+
+Big Data makes it possible to do many things that were previously impossible; for example, to spot business trends more rapidly and
+accurately, prevent disease, track crime, and so on. When properly analyzed, Big Data can reveal valuable patterns and information that
+were previously hidden because of the amount of work required to discover them. Leading corporations, such as Walmart and Google,
+have been able to process Big Data for years, but only at great expense. Today's hardware, cloud computing (see Plug IT In 4), and open-
+source software make processing Big Data affordable for most organizations.
+
+The first step for many organizations toward managing data was to integrate information silos into a database environment and then to
+develop data warehouses for decision making. (An information silo is an information system that does not communicate with other, related
+information systems in an organization.) After completing this step, many organizations turned their attention to the business of information
+management—making sense of their proliferating data. In recent years, Oracle, IBM, Microsoft, and SAP have spent billions of dollars
+purchasing software firms that specialize in data management and business intelligence. (You will learn about business intelligence in
+Chapter 5.)
+
+In addition to existing data management systems, today many organizations employ NoSQL databases to process Big Data. Think of them
+as “not only SQL” (structured query language) databases. (We discuss SQL in Plug IT In 3.)
+
+As you have seen in this chapter, traditional relational databases such as Oracle and MySQL store data in tables organized into rows and
+columns. Recall that each row is associated with a unique record and each column is associated with a field that defines an attribute of that
+account.
+
+In contrast, NoSQL databases can manipulate structured as well as unstructured data and inconsistent or missing data. For this reason,
+NoSQL databases are particularly useful when working with Big Data. Many products utilize NoSQL databases, including Cassandra
+(http://cassandra.apache.org), CouchDB (http://couchdb.apache.org), and MongoDB (www.mongodb.org).
+
+Hadoop (http://nadoop.apache.org) is not a type of database, but rather a collection of programs that allow storage, retrieval, and analysis
+of very large datasets using massively parallel processing. Massively parallel processing is the coordinated processing of an application by
+multiple processors that work on different parts of the application, with each processing using its own operating system and memory. As
+such, Hadoop enables the processing of NoSQL databases, which can be spread across thousands of servers without a reduction in
+performance. For example, a large database application which could take 20 hours of processing time on a centralized relational database
+system may only take a few minutes when using Hadoop's parallel processing. IT's About Business 3.2 shows how TrueCar uses Hadoop
+to manage its rapidly growing amount of data.
+
+MapReduce refers to the software procedure of dividing an analysis into pieces that can be distributed across different servers in different
+locations. MapReduce first distributes the analysis (map) and then collects and integrates the results back into one report (reduce).
+
+IT's About Business 3.2
+
+| MKT | TrueCar Uses Hadoop
+
+TrueCar (www.truecar.com) is an automotive pricing and information Web site for buyers and dealers of new and used cars. Via its
+e-commerce Web site, the company provides buyers with information on how much other customers have paid for cars in addition to
+upfront pricing and access to a network of more than 10,000 TrueCar dealers. Participating dealerships pay TrueCar when
+customers purchase a car from them through the site.
+
+< | Re | >
+--- module3_chapter3_page15_1773026869134.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+Q A
+
+UANDALUUIID, IGYOUAUUIID, LUSLUTTIGID VUYIIY VEHAVIUID, ANU Hany AUUTUTIAl VaNaVIGS. mM Uata TANG SWIG Vadt aIUUTNS UI Uata I
+their native (original) format until they are needed, rather than forcing the integration of large volumes of data before analysis.
+Examples of these raw data are documents in .doc, .txt, or .rtf formats; Adobe Photoshop documents in .psd formats; images in .jpg
+and .gif formats; and video in .mp4 format.
+
+Hadoop allows TrueCar to work with rapidly increasing amounts of data. In fact, TrueCar was managing 24 times as much data by
+the end of 2014 as it was a year earlier. Those data originated from 12,000 data sources and contain 65 billion data points. Of the 2
+petabytes in its Hadoop data lake, TrueCar has 600 terabytes in active use at any one time, involving more than 20 million buyer
+profiles. Hadoop provides TrueCar customers with an advanced, multidimensional, real-time search capability to help them find their
+perfect cars.
+
+An early example of TrueCar's use of Hadoop was to manage 700 million car photos every day. The firm notes that if there is no
+image of a vehicle, then there is no sale.
+
+TrueCar is also using Hadoop to make money from “exhaust data,” which is information resulting as a byproduct of normal
+operations. For example, the company collects exhaust data about actual and potential car buyers who visit its Web site. TrueCar
+analyzes that data and provides pricing and Web sales tips to its network of car dealers.
+
+TrueCar has experienced problems implementing Hadoop. For example, TrueCar sells a “white label” or generic version of its
+platform to other companies, such as banks, to rebrand as their own. But the white label version requires security features that
+Hadoop does not currently support. Third-party clients such as banks and financial institutions must comply with regulations and
+privacy laws in order for Hadoop data to work. Because of these particular data requirements, TrueCar is closely monitoring the
+development of new features in Hadoop such as enhanced security features and the ability to track metadata.
+
+Because the Hadoop data lake holds all of the data in a single location, TrueCar can perform a variety of valuable analytics
+strategies. For instance, one analysis revealed a positive link between the size of a Web cache and sales. A Web cache temporarily
+stores Web documents, such as images, to speed up the loading of Web pages. The analysis found that the larger the Web caches,
+the faster the page loads, the more satisfied the customer is, and the greater the likelihood of a purchase.
+
+This is one example of how TrueCar's analytics now include “dark data,” which organizations typically deleted, overlooked, or
+ignored. That is, the sizes of Web caches were largely ignored in the past, but today they are considered valuable.
+
+And how is TrueCar doing? As of July 2015, more than two million vehicles had been bought from TrueCar-certified dealers.
+
+Sources: Compiled from K. Korosec, “TrueCar Helps Sam's Club Get into the Car Business,” Fortune, September 3, 2015; C. Bruce, “Scott
+Painter Stepping Down as TrueCar CEO by Year End,” Autoblog, August 10, 2015; D. Undercoffler, “TrueCar Works on Relationships,”
+Automotive News, July 27, 2015; “TrueCar Announces Its Users Have Bought over 2 Million Vehicles from TrueCar Certified Dealers,” PR
+Newswire, June 29, 2015; D. Levin, “TrueCar, Facing Lawsuits, Sees Share Price Decline for Most of 2015,” TheStreet, June 20, 2015; D.
+Needle, “Hadoop Summit: Wrangling Big Data Requires Novel Tools, Techniques,” eWeek, June 10, 2015; D. Undercoffler, “Dealers vs.
+TrueCar: The Saga Continues,” Automotive News, June 1, 2015; J. Vaughan, “Hadoop Fuels TrueCar's Data-Driven Business Model,”
+TechTarget, November 21, 2014; “TrueCar: Over 1 Million Cars Sold through Affinity Auto Buying Programs,” /nsuranceNewsNet, June 13,
+2014; www.truecar.com, accessed October 10, 2015.
+
+Questions
+1. Describe how Hadoop manages Big Data in its data lake.
+2. Discuss why relational databases experienced problems with the variety of data that TrueCar has to manage and analyze.
+3. What are the benefits of Big Data to TrueCar?
+
+&
+
+a~
+
+--- module3_chapter3_page16_1773026897697.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-6
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+IT's About Business 3.3
+Combining Big Data and Open Data to Fight Ebola
+
+In December 2013, an outbreak of the Ebola virus began in the West African nation of Guinea and then spread to the neighboring
+countries of Liberia and Sierra Leone. In mid-2014, the World Health Organization (WHO; www.who.it) declared the outbreak a
+public health emergency of international concern. A dysfunctional healthcare system, a mistrust of government officials after years of
+armed conflict, local burial customs that include washing the body after death, widespread poverty, severely limited health and
+infrastructure resources, and the delay in responding to the outbreak for several months all contributed to the failure to control the
+epidemic. The outbreak became the largest recorded occurrence of Ebola.
+
+The unprecedented scope of the outbreak, coupled with the fact that the Ebola virus incubates between 2 and 21 days before the
+victim knows they are infected, made it extremely difficult to determine how and where the disease would spread. This situation
+presented an enormous challenge for the humanitarian agencies providing care to those most in need. For example, out of a
+population of four million, Liberia had only 200 physicians. As a result, the integration of open data from governments, Big Data,
+analytics software, and the willingness to collaborate across traditional geopolitical boundaries was essential in the fight against the
+disease.
+
+IBM's research lab in Africa (www.research.ibm.com/labs/africa/) developed a citizen engagement and analytics system that enables
+citizens to report their concerns directly to government agencies. In addition, IBM provided staff who volunteered to identify and
+classify all sources of open Ebola-related data in the Ebola Open Data Repository (www.eboladata.org). The system provides
+information on the daily experiences of communities to governments and aid agencies in the hopes of helping to stop the spread of
+the disease.
+
+Launched in collaboration with Sierra Leone's Open Government initiative (www.ogi.gov.sl), Cambridge University's Africa's Voices
+project, telecommunications company Airtel (www.airtel.com), and Kenya's Echo Mobile (www.echomobile.org), IBM's system
+incorporates data from a number of sources. For example, wireless carriers gather data from cell phones and make it anonymous
+before providing it to researchers. Specifically, Airtel set up a toll-free number that citizens used to report Ebola-related matters via
+short message service (SMS) or voice calls.
+
+Utilizing IBM's cloud-based analytics software, the system highlighted and correlated trends found among all messages. The text
+message and voice data identify location, so the system can show heatmaps that link public mobile call data with specific locations.
+(A heatmap is a graphical representation of data that represents individual data values as colors.) The analytics process provided an
+overview of regional population movements that helped predict the spread of Ebola. The cell phone data models and WHO reports
+were used to focus on the best ways to prevent the spread and provide healthcare.
+
+Integrating other information, such as social media, hospital updates, health clinic and physician reports, media reports,
+transactional data from retailers and pharmacies, and flight records, authorities used analytics software to determine where and how
+to respond to the crisis. The system also integrated open data from governments that assisted in relief efforts, such as census data
+and other data concerning roads, airports, schools, and medical facilities. Finally, it enabled healthcare workers to pinpoint
+previously unanticipated trends and reduce the spread of the disease, thereby limiting the number of deaths.
+
+The system also allowed authorities to home in on areas with suspected Ebola cases that might need medical supplies and
+electricity. It also assisted in the stark tasks of collecting bodies and performing burials. In addition, the system provided data for
+aovernments to use in reauestina international aid. particularly more testina facilities and eauioment.
+--- module3_chapter3_page17_1773026926482.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a-—od —-WH,O_,/SJ —.
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+z. Provide examples OT big Vata Mentioned In tnis case.
+3. Why was the integration of open data and Big Data essential to help lessen the impact of the Ebola virus?
+
+Enabling Organizations to Conduct Experiments.
+
+Big Data allows organizations to improve performance by conducting controlled experiments. For example, Amazon (and many other
+companies such as Google and LinkedIn) constantly experiments by offering slight different “looks” on its Web site. These experiments are
+called A/B experiments, because each experiment has only two possible outcomes. Here is an example of an A/B experiment at Etsy.com,
+an online marketplace for vintage and handmade products.
+
+When Etsy analysts noticed that one of its Web pages attracted customer attention but failed to keep it, they looked more closely
+
+at the page. They found that the page had few “calls to action.” (A call to action is an item, such as a button, on a Web page that enables a
+customer to do something.) On this particular Etsy page, customers could leave, buy, search, or click on two additional product images. The
+analysts decided to show more product images on the page.
+
+Consequently, one group of visitors to the page saw a strip across the top of the page that displayed additional product images. Another
+group of page visitors saw only the two original product images. On the page with additional images, customers viewed more products and
+bought more products. The results of this experiment revealed valuable information to Etsy.
+
+Micro-Segmentation of Customers.
+
+Segmentation of a company's customers means dividing them up into groups that share one or more characteristics. Micro-segmentation
+simply means dividing customers up into very small groups, or even down to the individual level.
+
+For example, Paytronix Systems (www.paytronix.com) provides loyalty and rewards program software for thousands of different
+
+restaurants. Paytronix gathers restaurant guest data from a variety of sources beyond loyalty and gift programs, including social media.
+Paytronix analyzes this Big Data to help its restaurant clients micro-segment their guests. Restaurant managers are now able to more
+precisely customize their loyalty and gift programs. In doing so, the managers are noting improved performance in their restaurants in terms
+of profitability and customer satisfaction.
+
+Creating New Business Models.
+
+| POM | Companies are able to use Big Data to create new business models. For example, a commercial transportation company operated
+
+a large fleet of large, long-haul trucks. The company recently placed sensors on all its trucks. These sensors wirelessly communicate large
+amounts of information to the company, a process called telematics. The sensors collect data on vehicle usage (including acceleration,
+braking, cornering, etc.), driver performance, and vehicle maintenance.
+
+By analyzing this Big Data, the transportation company was able to improve the condition of its trucks through near-real-time analysis that
+proactively suggested preventive maintenance. In addition, the company was able to improve the driving skills of its operators by analyzing
+their driving styles.
+
+The transportation company then made its Big Data available to its insurance carrier. Using this data, the insurance carrier performed risk
+analysis on driver behavior and the condition of the trucks, resulting in a more precise assessment. The insurance carrier offered the
+transportation company a new pricing model that lowered the transportation company's premiums by 10 percent.
+
+Oraanizations Can Analvze More Data
+
+< | R71 >
+--- module3_chapter3_page18_1773026954612.png ---
+<€ Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -- 6
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+Q A
+
+Human Resources.
+
+| HRM | Employee benefits, particularly healthcare, represent a major business expense. Consequently, some companies have turned to
+
+Big Data to better manage these benefits. Caesars Entertainment (www.caesars.com), for example, analyzes health-insurance claim data
+for its 65,000 employees and their covered family members. Managers can track thousands of variables that indicate how employees use
+medical services, such as the number of emergency room visits and whether employees choose a generic or brand name drug.
+
+Consider the following scenario: Data revealed that too many employees with medical emergencies were being treated at hospital
+emergency rooms rather than at less-expensive urgent-care facilities. The company launched a campaign to remind employees of the high
+cost of emergency room visits, and they provided a list of alternative facilities. Subsequently, 10,000 emergencies shifted to less-expensive
+alternatives, for a total savings of $4.5 million.
+
+Big Data is also having an impact on hiring. An example is Catalyst IT Services (www.catalystdevworks.com), a technology outsourcing
+company that hires teams for programming jobs. Traditional recruiting is typically too slow, and hiring managers often subjectively choose
+candidates who are not the best fit for the job. Catalyst addresses this problem by requiring candidates to fill out an online assessment. It
+then uses the assessment to collect thousands of data points about each candidate. In fact, the company collects more data based on how
+candidates answer than on what they answer.
+
+For example, the assessment might give a problem requiring calculus to an applicant who is not expected to know the subject. How the
+candidate responds—laboring over an answer, answering quickly and then returning later, or skipping the problem entirely—provides
+insight into how that candidate might deal with challenges that he or she will encounter on the job. That is, someone who labors over a
+difficult question might be effective in an assignment that requires a methodical approach to problem solving, whereas an applicant who
+takes a more aggressive approach might perform better in a different job setting.
+
+The benefit of this big-data approach is that it recognizes that people bring different skills to the table and that there is no one-size-fits-all
+person for any job. Analyzing millions of data points can reveal which attributes candidates bring to specific situations.
+
+As one measure of success, employee turnover at Catalyst averages about 15 percent per year, compared with more than 30 percent for
+its U.S. competitors and more than 20 percent for similar companies overseas.
+
+Product Development.
+
+Big Data can help capture customer preferences and put that information to work in designing new products. For example, Ford
+
+Motor Company (www.ford.com) was considering a “three blink” turn indicator that had been available on its European cars for years.
+Unlike the turn signals on its U.S. vehicles, this indicator flashes three times at the driver's touch and then automatically shuts off.
+
+Ford decided that conducting a full-scale market research test on this blinker would be too costly and time consuming. Instead, it examined
+auto-enthusiast Web sites and owner forums to discover what drivers were saying about turn indicators. Using text-mining algorithms,
+researchers culled more than 10,000 mentions and then summarized the most relevant comments.
+
+The results? Ford introduced the three-blink indicator on the new Ford Fiesta in 2010, and by 2013 it was available on most Ford products.
+Although some Ford owners complained online that they have had trouble getting used to the new turn indicator, many others defended it.
+Ford managers note that the use of text-mining algorithms was critical in this effort because they provided the company with a complete
+picture that would not have been available using traditional market research.
+
+Operations.
+hl:
+
+< | R73 >
+--- module3_chapter3_page19_1773026983716.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—- 6
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66 |
+R75
+
+R81
+
+Q A
+
+TNS VIMINCU NINQGUUIITS MMe rUUNMUNEIIlal MULEIS OLUUP (ING, WWW.INY.CUITT) Has Yalliereu UCLANS GVUUL WIE IMEMIVEIS Ul lS CMUIly Ulu
+rewards program, such as income levels and whether members prefer family-style or business-traveler accommodations. The company
+
+&
+
+a~
+
+then consolidated all this information with information obtained from social media into a single data warehouse. Using its data warehouse G
+and analytics software, the hotelier launched a new marketing campaign. Where previous marketing campaigns generated, on average,
+between 7 and 15 customized marketing messages, the new campaign generated more than 1,500. IHG rolled out these messages in
+stages to an initial core of 12 customer groups, each of which is defined by 4,000 attributes. One group, for instance, tends to stay on
+weekends, redeem reward points for gift cards, and register through IHG marketing partners. Utilizing this information, IHG sent these
+customers a marketing message that alerted them to local weekend events.
+The campaign proved to be highly successful. It generated a 35 percent higher rate of customer conversions, or acceptances, than
+previous, similar campaigns.
+Government Operations.
+With 55 percent of the population of the Netherlands living under the threat of flooding, water management is critically important to
+
+the Dutch government. The government operates a sophisticated water management system, managing a network of dykes or levees,
+canals, locks, harbors, dams, rivers, storm-surge barriers, sluices, and pumping stations.
+In its water management efforts, the government makes use of a vast number of sensors embedded in every physical structure used for
+water control. The sensors generate at least 2 petabytes of data annually. As the sensors are becoming cheaper, the government is
+deploying more of them, increasing the amount of data generated.
+In just one example of the use of sensor data, sensors in dykes can provide information on the structure of the dyke, how well it is able to
+handle the stress of the water it controls, and whether it is likely to fail. Further, the sensor data are providing valuable insights for new
+designs for Dutch dykes. The result is that Dutch authorities have reduced the costs of managing water by 15 percent. 0
+
+Before you go on...
+
+1. Define Big Data.
+2. Describe the characteristics of Big Data.
+3. Describe how companies can use Big Data to gain competitive advantage.
+
+Apply the Concept 3.3
+
+Learning Objective 3.3
+
+Define Big Data and its basic characteristics.
+
+STEP 1: Background
+
+This section describes Big Data as an ongoing phenomenon that is providing businesses with access to vast amounts of
+
+information. The key “ingredients” that make the Big Data phenomenon a reality are volume, velocity, and variety.
+
+STEP 2: Activity
+
+TIBCO (www.tibco.com) is a company that provides a real-time event-processing software platform that brings customers and aa
+
+< | Rm | >
+--- module3_chapter3_page20_1773027012416.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66
+
+R75 |
+
+R81
+
+3.4 Data Warehouses and Data Marts
+
+Today, the most successful companies are those that can respond quickly and flexibly to market changes and opportunities. A key to this
+response is the effective and efficient use of data and information by analysts and managers. The challenge is providing users with access
+to corporate data so that they can analyze the data to make better decisions. Let's look at an example. If the manager of a local bookstore
+wanted to know the profit margin on used books at her store, she could obtain that information from her database, using SQL or QBE.
+However, if she needed to know the trend in the profit margins on used books over the past 10 years, she would have to construct a very
+complicated SQL or QBE query.
+
+This example illustrates several reasons why organizations are building data warehouses and/or data marts. First, the bookstore's
+databases contain the necessary information to answer the manager's query, but this information is not organized in a way that makes it
+easy for her to find what she needs. Second, the organization's databases are designed to process millions of transactions every day.
+Therefore, complicated queries might take a long time to answer, and they also might degrade the performance of the databases. Third,
+transactional databases are designed to be updated. This update process requires extra processing. Data warehouses and data marts are
+read-only, and the extra processing is eliminated because data already contained in the data warehouse are not updated. Fourth,
+transactional databases are designed to access a single record at a time. Data warehouses are designed to access large groups of related
+records.
+
+As a result of these problems, companies are using a variety of tools with data warehouses and data marts to make it easier and faster for
+users to access, analyze, and query data. You will learn about these tools in Chapter 5 on Business Analytics.
+
+Describing Data Warehouses and Data Marts
+
+In general, data warehouses and data marts support business intelligence (Bl) applications. As you will see in Chapter 5, business
+intelligence encompasses a broad category of applications, technologies, and processes for gathering, storing, accessing, and analyzing
+data to help business users make better decisions. A data warehouse is a repository of historical data that are organized by subject to
+support decision makers in the organization.
+
+Because data warehouses are so expensive, they are used primarily by large companies. A data mart is a low-cost, scaled-down version of
+a data warehouse that is designed for the end-user needs in a strategic business unit (SBU) or an individual department. Data marts can be
+implemented more quickly than data warehouses, often in less than 90 days. Further, they support local rather than central control by
+conferring power on the user group. Typically, groups that need a single or a few BI applications require only a data mart, rather than a data
+warehouse.
+
+The basic characteristics of data warehouses and data marts include the following:
+
+¢ Organized by business dimension or subject. Data are organized by subject—for example, by customer, vendor, product, price level,
+and region. This arrangement differs from transactional systems, where data are organized by business process, such as order entry,
+inventory control, and accounts receivable.
+
+¢ Use online analytical processing. Typically, organizational databases are oriented toward handling transactions. That is, databases use
+online transaction processing (OLTP), where business transactions are processed online as soon as they occur. The objectives are
+speed and efficiency, which are critical to a successful Internet-based business operation. Data warehouses and data marts, which are
+designed to support decision makers but not OLTP, use OLTP. Online analytical processing involves the analysis of accumulated data
+by end users. We consider OLAP in greater detail in Chapter 5.
+
+¢ Integrated. Data are collected from multiple systems and then integrated around subjects. For example, customer data may be
+
+ete hE fe ek dN Ak a a ee ate 2 a ee tne
+--- module3_chapter3_page21_1773027039415.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+«Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+~ Module 3: Data Typologies and Governance
+
+«Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+4) Back to Page
+
+M1
+
+M2
+
+Fl
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+cube. a
+
+The data in data warehouses and marts are organized by business dimensions, which are subjects such as product, geographic area, and <
+time period that represent the edges of the data cube. If you look ahead to Figure 3.6 for an example of a data cube, you see that the
+
+product dimension is comprised of nuts, screws, bolts, and washers; the geographic area dimension is comprised of East, West, and
+
+Central; and the time period dimension is comprised of 2013, 2014, and 2015. Users can view and analyze data from the perspective of
+
+these business dimensions. This analysis is intuitive because the dimensions are presented in business terms that users can easily
+
+understand.
+
+A Generic Data Warehouse Environment
+The environment for data warehouses and marts includes the following:
+¢ Source systems that provide data to the warehouse or mart
+
+Data-integration technology and processes that prepare the data for use
+
+Different architectures for storing data in an organization's data warehouse or data marts
+
+Different tools and applications for the variety of users. (You will learn about these tools and applications in Chapter 5.)
+¢ Metadata, data-quality, and governance processes that ensure that the warehouse or mart meets its purposes
+Figure 3.4 depicts a generic data warehouse/data mart environment. Let's drill down into the component parts.
+
+SOURCE DATA STORING
+SYSTEMS INTEGRATION DATA USERS
+Data
+—— pss Custom-built
+applications |]
+L (4GL languages)
+=
+
+i}
+n
+M t
+i 4 Web
+q n browser
+\ ; =
+e t
+w
+a Relational
+r query tools
+9 e
+OLAP/ROLAP
+
+Operational ~ SSE,
+systems/data Finance e
+
+Data minina
+--- module3_chapter3_page23_1773027067700.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+«Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+~ Module 3: Data Typologies and Governance
+
+«Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+4) Back to Page
+
+M1
+M2
+
+Fl
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66
+
+R75 |
+
+R81
+
+Q A
+
+Acommon source for the data in data warehouses is the company's operational databases, which can be relational databases. To
+differentiate between relational databases and multidimensional data warehouses and marts, imagine your company manufactures four
+products—nuts, screws, bolts, and washers—and has sold them in three territories—East, West, and Central—for the previous three years
+—2013, 2014, and 2015. In a relational database, these sales data would resemble Figure 3.5(a) through (c). In a multidimensional
+database, in contrast, these data would be represented by a three-dimensional matrix (or data cube), as depicted in Figure 3.6. This matrix
+represents sales dimensioned by products and regions and year. Notice that Figure 3.5(a) presents only sales for 2013. Sales for 2014 and
+2015 are presented in Figure 3.5(b) and (c), respectively. Figure 3.7(a) through (c) illustrates the equivalence between these relational and
+multidimensional databases.
+
+(a) 2013 (b) 2014 (c) 2015
+
+Figure 3.5 Relational databases.
+
+Nuts Screws Bolts Washers 2014
+--- module3_chapter3_page24_1773027094102.png ---
+< Back Q A &, coo
+
+= Bawenes §=©Foundations of Data Analytics eee <
+John W. Foreman Ene
+West
+Central
+Expand all | Collapse all
+Nuts Screws Bolts Washers KP G3 EE Very
+. * Washers West (a) West (b)
+vy Module 1: The Value of Data M1 Washers Conwral oy ae Washers Central 40 nota sh
+2013
+«Module 2: Working with Data M2
+vy Chapter 1: Everything You Ever Needed to Know F1 usa)
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+Screws East
+~ Module 3: Data Typologies and Governance M3 Screws West *
+Screws Central 100
+Bolts East 110
+«Chapter 3: Data and Knowledge Management R56
+(Rainer)
+Washers East 40 Nuts Screws Bolts Washers
+Opening Case R56 Washers West 30 © |
+Washers Central 50 15 2015
+i R57
+iniboceiton Figure 3.7 Equivalence between relational and multidimensional databases.
+3.1 Managing Data naa Unfortunately, many source systems that have been in use for years contain “bad data” (e.g., missing or incorrect data) and are poorly
+. ging documented. As a result, data-profiling software should be used at the beginning of a warehousing project to better understand the data.
+For example, this software can provide statistics on missing data, identify possible primary and foreign keys, and reveal how derived values
+3.2 The Database Approach R62 (e.g., column 3 = column 1 + column 2) are calculated. Subject area database specialists (e.g., marketing, human resources) can also
+assist in understanding and accessing the data in source systems.
+3.3 Big Data R66 Organizations need to address other source systems issues as well. Often there are multiple systems that contain some of the same data
+and the best system must be selected as the source system. Organizations must also decide how granular (i.e., detailed) the data should
+be. For example, does the organization need daily sales figures or data at the individual transaction level? The conventional wisdom is that
+3.4 Data Warehouses and Data Marts Gus it is best to store data at a highly granular level because someone will likely request the data at some point.
+3.5 Knowledge Management R81 Data Integration.
+v In addition to storina data in their source svstems. oraanizations need to extract the data. transform them. and then /oad them into a data ~
+W < R78 >
+
+4) Back to Page
+--- module3_chapter3_page25_1773027120339.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66
+
+R75 |
+
+R81
+
+Q A &, eee
+
+numerous ways that organizations interact with customers, such as e-mail, the Web, direct contact, and the telephone—are typically -
+independent of one another. To obtain a holistic picture of how customers are using the bank, the bank must integrate the data from the <
+various source systems into a data mart or warehouse.
+
+Other kinds of transformations also take place. For example, format changes to the data may be required, such as using male and female
+to denote gender, as opposed to 0 and 1 or M and F. Aggregations may be performed, say on sales figures, so that queries can use the
+summaries rather than recalculating them each time. Data-cleansing software may be used to “clean up” the data; for example, eliminating
+duplicate records for the same customer.
+
+Finally, data are loaded into the warehouse or mart during a specific period known as the “load window.” This window is becoming smaller
+as companies seek to store ever-fresher data in their warehouses. For this reason, many companies have moved to real-time data
+warehousing where data are moved (using data-integration processes) from source systems to the data warehouse or mart almost
+instantly. For example, within 15 minutes of a purchase at Walmart, the details of the sale have been loaded into a warehouse and are
+available for analysis.
+
+Storing the Data.
+
+A variety of architectures can be used to store decision-support data. The most common architecture is one central enterprise data
+warehouse, without data marts. Most organizations use this approach, because the data stored in the warehouse are accessed by all users
+and represent the single version of the truth.
+
+Another architecture is independent data marts. This architecture stores data for a single application or a few applications, such as
+marketing and finance. Limited thought is given to how the data might be used for other applications or by other functional areas in the
+organization. This is a very application-centric approach to storing data.
+
+The independent data mart architecture is not particularly effective. Although it may meet a specific organizational need, it does not reflect
+
+an enterprise-wide approach to data management. Instead, the various organizational units create independent data marts. Not only are
+
+these marts expensive to build and maintain, but they often contain inconsistent data. For example, they may have inconsistent data
+
+definitions such as: What is a customer? Is a particular individual a potential or current customer? They might also use different source
+
+systems (which may have different data for the same item, such as a customer address). Although independent data marts are an
+
+organizational reality, larger companies have increasingly moved to data warehouses. |]
+
+Still another data warehouse architecture is the hub and spoke. This architecture contains a central data warehouse that stores the data
+plus multiple dependent data marts that source their data from the central repository. Because the marts obtain their data from the central
+repository, the data in these marts still comprise the single version of the truth for decision-support purposes.
+
+The dependent data marts store the data in a format that is appropriate for how the data will be used and for providing faster response
+times to queries and applications. As you have learned, users can view and analyze data from the perspective of business dimensions and
+measures. This analysis is intuitive because the dimensions are in business terms, easily understood by users.
+
+Metadata.
+
+It is important to maintain data about the data, known as metadata, in the data warehouse. Both the IT personnel who operate and manage
+the data warehouse and the users who access the data need metadata. IT personnel need information about data sources; database,
+table, and column names; refresh schedules; and data-usage measures. Users' needs include data definitions, report/query tools, report
+distribution information, and contact information for the help desk.
+
+Data Analite
+
+< | R79 | >
+
+A
+--- module3_chapter3_page26_1773027147865.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+oe
+
+i OM John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—- 6
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66
+
+R75 |
+
+R81
+
+Q A &, eco
+IGYUN CU WIS MULT Ha@ayord ty LARS WIS TOOPUTOIVIILY TUL THANIY USHA WISI UISINS GILG WIG LUTTGUL uaa. 7m
+Governance. <
+To ensure that BI is meeting their needs, organizations must implement governance to plan and control their BI activities. Governance
+requires that people, committees, and processes be in place. Companies that are effective in BI governance often create a senior-level
+committee comprised of vice presidents and directors who (1) ensure that the business strategies and BI strategies are in alignment, (2)
+prioritize projects, and (3) allocate resources. These companies also establish a middle management—level committee that oversees the
+various projects in the BI portfolio to ensure that these projects are being completed in accordance with the company's objectives. Finally,
+lower level operational committees perform tasks such as creating data definitions and identifying and solving data problems. All of these
+committees rely on the collaboration and contributions of business users and IT personnel.
+Users.
+Once the data are loaded in a data mart or warehouse, they can be accessed. At this point the organization begins to obtain business value
+from BI; all of the prior stages constitute creating BI infrastructure.
+There are many potential BI users, including IT developers; frontline workers; analysts; information workers; managers and executives; and
+suppliers, customers, and regulators. Some of these users are information producers whose primary role is to create information for other
+users. IT developers and analysts typically fall into this category. Other users—including managers and executives—are information
+consumers, because they utilize information created by others.
+Companies have reported hundreds of successful data-warehousing applications. You can read client success stories and case studies at
+the Web sites of vendors such as NCR Corp. (www.ncr.com) and Oracle (www.oracle.com). For a more detailed discussion, visit the Data
+Warehouse Institute (http://tdwi.org). The benefits of data warehousing include the following:
+¢ End users can access needed data quickly and easily via Web browsers because these data are located in one place.
+¢ End users can conduct extensive analysis with data in ways that were not previously possible.
+¢ End users can obtain a consolidated view of organizational data.
+These benefits can improve business knowledge, provide competitive advantage, enhance customer service and satisfaction, facilitate
+decision making, and streamline business processes. ry
+Despite their many benefits, data warehouses have some limitations. First, they can be very expensive to build and to maintain. Second,
+incorporating data from obsolete mainframe systems can be difficult and expensive. Finally, people in one department might be reluctant to
+share data with other departments.
+Before you go on...
+1. Differentiate between data warehouses and data marts.
+2. Describe the characteristics of a data warehouse.
+3. What are three possible architectures for data warehouses and data marts in an organization?
+Apply the Concept 3.4 =
+< | R80 | >
+--- module3_chapter3_page27_1773027176111.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—- 6
+
+4) Back to Page
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+Qa &
+
+3.5 Knowledge Management “
+
+As we have noted throughout this text, data and information are critically important organizational assets. Knowledge is a vital asset as
+well. Successful managers have always valued and utilized intellectual assets. These efforts were not systematic, however, and they did
+not ensure that knowledge was shared and dispersed in a way that benefited the overall organization. Moreover, industry analysts estimate
+that most of a company's knowledge assets are not housed in relational databases. Instead, they are dispersed in e-mail, word-processing
+documents, spreadsheets, presentations on individual computers, and in people's heads. This arrangement makes it extremely difficult for
+companies to access and integrate this knowledge. The result frequently is less-effective decision making.
+
+Concepts and Definitions
+
+Knowledge management (KM) is a process that helps organizations manipulate important knowledge that comprises part of the
+organization's memory, usually in an unstructured format. For an organization to be successful, knowledge, as a form of capital, must exist
+in a format that can be exchanged among persons. In addition, it must be able to grow.
+
+Knowledge.
+
+In the information technology context, knowledge is distinct from data and information. As you learned in Chapter 1, data are a collection of
+facts, measurements, and statistics; information is organized or processed data that are timely and accurate. Knowledge is information that
+is contextual, relevant, and useful. Simply put, knowledge is information in action. Intellectual capital (or intellectual assets) is another
+term for knowledge.
+
+To illustrate, a bulletin listing all of the courses offered by your university during one semester would be considered data. When you register,
+you process the data from the bulletin to create your schedule for the semester. Your schedule would be considered information.
+Awareness of your work schedule, your major, your desired social schedule, and characteristics of different faculty members could be
+construed as knowledge, because it can affect the way you build your schedule. You see that this awareness is contextual and relevant (to
+developing an optimal schedule of classes) as well as useful (it can lead to changes in your schedule). The implication is that knowledge
+has strong experiential and reflective elements that distinguish it from information in a given context. Unlike information, knowledge can be
+utilized to solve a problem.
+
+Numerous theories and models classify different types of knowledge. In the next section, we will focus on the distinction between explicit
+knowledge and tacit knowledge.
+
+Explicit and Tacit Knowledge.
+
+Explicit knowledge deals with more objective, rational, and technical knowledge. In an organization, explicit knowledge consists of the
+policies, procedural guides, reports, products, strategies, goals, core competencies, and IT infrastructure of the enterprise. In other words,
+explicit knowledge is the knowledge that has been codified (documented) in a form that can be distributed to others or transformed into a
+process or a strategy. A description of how to process a job application that is documented in a firm's human resources policy manual is an
+example of explicit knowledge.
+
+In contrast, tacit knowledge is the cumulative store of subjective or experiential learning. In an organization, tacit knowledge consists of an
+organization's experiences, insights, expertise, know-how, trade secrets, skill sets, understanding, and learning. It also includes the
+organizational culture, which reflects the past and present experiences of the organization's people and processes, as well as the
+organization's prevailing values. Tacit knowledge is generally imprecise and costly to transfer. It is also highly personal. Finally, because it is
+unstructured, it is difficult to formalize or codify, in contrast to explicit knowledge. A salesperson who has worked with particular customers
+
+nuar timna and hace naman ta Lan: thair nande auita wiall ainuld naceence avianaivin tanit Lanuidadan Thie Lanudadan ie tininalhs nat ranardad
+
+< | R81 >
+--- module3_chapter3_page28_1773027241184.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -- 6
+
+4) Back to Page
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+Q A
+
+Numerous theories and models classify different types of knowledge. In the next section, we will focus on the distinction between explicit
+knowledge and tacit knowledge.
+
+Explicit and Tacit Knowledge.
+
+Explicit knowledge deals with more objective, rational, and technical knowledge. In an organization, explicit knowledge consists of the
+policies, procedural guides, reports, products, strategies, goals, core competencies, and IT infrastructure of the enterprise. In other words,
+explicit knowledge is the knowledge that has been codified (documented) in a form that can be distributed to others or transformed into a
+process or a strategy. A description of how to process a job application that is documented in a firm's human resources policy manual is an
+example of explicit knowledge.
+
+In contrast, tacit knowledge is the cumulative store of subjective or experiential learning. In an organization, tacit knowledge consists of an
+organization's experiences, insights, expertise, know-how, trade secrets, skill sets, understanding, and learning. It also includes the
+organizational culture, which reflects the past and present experiences of the organization's people and processes, as well as the
+organization's prevailing values. Tacit knowledge is generally imprecise and costly to transfer. It is also highly personal. Finally, because it is
+unstructured, it is difficult to formalize or codify, in contrast to explicit knowledge. A salesperson who has worked with particular customers
+over time and has come to know their needs quite well would possess extensive tacit knowledge. This knowledge is typically not recorded.
+In fact, it might be difficult for the salesperson to put into writing, even if he or she were willing to share it.
+
+Knowledge Management Systems
+
+The goal of knowledge management is to help an organization make the most productive use of the knowledge it has accumulated.
+Historically, management information systems have focused on capturing, storing, managing, and reporting explicit knowledge.
+Organizations now realize they need to integrate explicit and tacit knowledge into formal information systems. Knowledge management
+systems (KMSs) refer to the use of modern information technologies—the Internet, intranets, extranets, databases—to systematize,
+enhance, and expedite intrafirm and interfirm knowledge management. KMSs are intended to help an organization cope with turnover, rapid
+change, and downsizing by making the expertise of the organization's human capital widely accessible. IT's About Business 3.4 illustrates
+how Performance Bicycle implemented the Learning Center, a knowledge management system.
+
+IT's About Business 3.4
+
+Performance Bicycle Leverages Its
+
+Employees' Knowledge
+Performance Bicycle (PB; www.performancebike.com) is a leading retailer of cycling products. The company has 2,200 employees
+and more than 100 stores in 20 states. It also has a print catalog and sells more than 10,000 products on its Web site.
+
+The company wanted to use the Web to increase its customer base as part of its long-term business plan. PB knew that its e-
+commerce site could extend its reach beyond its brick-and-mortar stores. To do this, it would need more than just great products.
+
+Performance Bicycle decided to leverage its employees’ passion for cycling. Most of them keep bikes in their offices or cubicles. By
+using the staff's knowledge and enthusiasm, PB could motivate new customers and cement its reputation as a cycling expert.
+Significantly, the company recognized that although its employees' knowledge is extremely valuable, it was also largely untapped.
+The challenge confronting Performance Bicycle was to capture this knowledge and share it with its customers in an engaging way.
+PB addressed this challenge by launching its Learning Center.
+
+--- module3_chapter3_page29_1773027267430.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+os
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a - 6
+
+4) Back to Page
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+Q A &, ce
+
+MeIPSY 1VIYe NS ISPULAUUIT ad a ICAUINIY LYUNNY AULTUTILY. PIG SG SULLCECUDS IT MISPIIIY VUUT CAPCHCMUCU AU TIGW UYUNStS, alu
+helps them navigate the otherwise bumpy road of a wide range of products.
+
+And the bottom line? Within just four months of the Learning Center going live, traffic on PB's site tripled. The Learning Center is
+now referring more than 40 percent of all of the company's direct online sales. Meanwhile, PB has begun to implement the Learning
+Center as a mobile application to further improve the customer experience.
+
+Sources: Compiled from A. Dow, “Top Takeaways for Retail from VMworld,” VMware Blogs, September 15, 2015; “Consumer and Retail
+Companies Must Focus on Distribution and Localization in Emerging Markets,” M-Brain, July 5, 2015; E. Tucker, “Positive Stories about
+Working in Retail,” APQC.org, April 29, 2015; T. Hussein and S. Khan, “Knowledge Management: An Instrument for Implementation in Retail
+Marketing,” MATRIX Academic International Online Journal of Engineering and Technology, April, 2015; “Performance Bike: Architecting a
+Customer Learning Center,” Sirius Digital Experience, 2015; A. Pickrell, “Putting the ‘Perform’ in Performance Bicycle,” BM Amplify, 2015; J.
+Gregoire, “5 Challenges, Opportunities, and Imperatives for Retailers in 2015,” CPC Strategy, October 8, 2014; “Performance Bicycle,” /BM
+Smarter Commerce, April 22, 2014; “Performance Bicycle Launches Learning Center,” MarketWatch, September 25, 2013;
+www.performancebike.com, accessed September 26, 2015.
+
+Questions
+1. Describe several ways in which Performance Bicycle incorporates employee knowledge in its customer experience.
+2. Is Performance Bicycle capturing and using its employee's tacit knowledge or explicit knowledge? Explain your answer.
+
+Organizations can realize many benefits with KMSs. Most importantly, they make best practices—the most effective and efficient ways of
+doing things—readily available to a wide range of employees. Enhanced access to best-practice knowledge improves overall organizational
+performance. For example, account managers can now make available their tacit knowledge about how best to manage large accounts.
+The organization can then utilize this knowledge when it trains new account managers. Other benefits include improved customer service,
+more efficient product development, and improved employee morale and retention.
+
+At the same time, however, implementing effective KMSs presents several challenges. First, employees must be willing to share their
+personal tacit knowledge. To encourage this behavior, organizations must create a knowledge management culture that rewards employees
+who add their expertise to the knowledge base. Second, the organization must continually maintain and upgrade its knowledge base.
+Specifically, it must incorporate new knowledge and delete old, outdated knowledge. Finally, companies must be willing to invest in the
+resources needed to carry out these operations.
+
+The KMS Cycle
+
+A functioning KMS follows a cycle that consists of six steps (see Figure 3.8). The reason the system is cyclical is that knowledge is r
+dynamically refined over time. The knowledge in an effective KMS is never finalized because the environment changes over time and
+knowledge must be updated to reflect these changes. The cycle works as follows:
+
+1. Create knowledge. Knowledge is created as people determine new ways of doing things or develop know-how. Sometimes external
+knowledge is brought in.
+
+2. Capture knowledge. New knowledge must be identified as valuable and be represented in a reasonable way.
+
+3. Refine knowledge. New knowledge must be placed in context so that it is actionable. This is where tacit qualities (human insights) must
+be captured along with explicit facts.
+
+4. Store knowledge. Useful knowledge must then be stored in a reasonable format in a knowledge repository so that other people in the
+organization can access it. bd
+--- module3_chapter3_page30_1773027292899.png ---
+< Back Q A &, coo
+
+Bawenes §=©Foundations of Data Analytics eee <
+
+John W. Foreman
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data M1
+«Module 2: Working with Data M2
+Figure 3.8 The knowledge management system cycle.
+vy Chapter 1: Everything You Ever Needed to Know F1 Bef
+about Spreadsheets but Were Too Afraid to Ask erore you go On...
+(Foreman)
+1. What is knowledge management?
+“« Module 3: Data Typologies and Governance M3 2. What is the difference between tacit knowledge and explicit knowledge?
+3. Describe the knowledge management system cycle.
+«Chapter 3: Data and Knowledge Management R56
+(Rainer) Apply the Concept 3.5
+Opening Case R56 Learning Objective 3.5
+Describe the benefits and challenges of implementing knowledge management systems in organizations.
+i R57
+Introduction STEP 1: Background
+. ra As you have learned in this text, data are captured, stored, analyzed, and shared to create knowledge within organizations. This
+oo Memewhig Weta knowledge is exposed in meetings when colleagues are interpreting the information they received from the latest report, in employee
+presentations, in e-mail among coworkers, and in numerous other scenarios. The problem many organizations face is that there are
+3.2 The Database Approach R62 massive amounts of knowledge that are created and shared, but this information is not stored in a centralized, searchable format. 6
+STEP 2: Activity
+3.3 Big Data 6G Visit http:/Awww.wiley.com/go/rainer/MIS4e/applytheconcept, and click on the links provided for Apply the Concept 3.5. They will take
+you to two YouTube videos: “Discover What You Know’ by user “Ken Porter” and “Lee Bryant—Knowledge Management” by user
+3.4 Data Warehouses and Data Marts R75 “usnowfilm.” Both videos illustrate the importance of capturing knowledge within an organization so it can be shared with the right
+person at the right time to support effective decision making.
+3.5 Knowledge Management R81 | SUP ce Delhverelals
+v Write a short paragraph or two to discuss the benefits and challenges faced by companies when they attempt to implement a v
+
+Qn e_—o—___——— OO < | Re | >
+
+4) Back to Page
+
+--- module3_chapter3_page31_1773027319300.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+oe
+
+i OM John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -— ®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62
+R66
+
+R75
+
+R81
+v
+
+Gdld Ill lOUdy S OFYaIZauUONS SU Ullal Wey Call Keep WIE HMMS Il COMPlance WIT WE StanUalUs IMIPOUSeU Vy Cdl Valles—-UXIiey.
+
+Accountants also play a role in cost justifying the creation of a knowledge base and then auditing its cost-effectiveness. In addition, if
+you work for a large CPA company that provides management services or sells knowledge, you will most likely use some of your
+company's best practices that are stored in a knowledge base.
+
+Gy For the Finance Major
+
+Financial managers make extensive use of computerized databases that are external to the organization, such as CompuStat or
+Dow Jones, to obtain financial data on organizations in their industry. They can use these data to determine if their organization
+meets industry benchmarks in return on investment, cash management, and other financial ratios.
+
+Financial managers, who produce the organization's financial status reports, are also closely involved with Sarbanes—Oxley.
+Databases help these managers comply with the law's standards.
+
+| MKT | For the Marketing Major
+
+Databases help marketing managers access data from the organization's marketing transactions, such as customer purchases, to
+plan targeted marketing campaigns and to evaluate the success of previous campaigns. Knowledge about customers can make the
+difference between success and failure. In many databases and knowledge bases, the vast majority of information and knowledge
+concerns customers, products, sales, and marketing. Marketing managers regularly use an organization's knowledge base, and they
+often participate in its creation.
+
+| POM | For the Production/Operations Management Major
+
+Production/operations personnel access organizational data to determine optimum inventory levels for parts in a production process.
+Past production data enable production/operations management (POM) personnel to determine the optimum configuration for
+assembly lines. Firms also collect quality data that inform them not only about the quality of finished products but also about quality
+issues with incoming raw materials, production irregularities, shipping and logistics, and after-sale use and maintenance of the
+product.
+
+Knowledge management is extremely important for running complex operations. The accumulated knowledge regarding scheduling,
+logistics, maintenance, and other functions is very valuable. Innovative ideas are necessary for improving operations and can be
+supported by knowledge management.
+
+| HRM | For the Human Resources Management Major
+
+Organizations keep extensive data on employees, including gender, age, race, current and past job descriptions, and performance
+evaluations. HR personnel access these data to provide reports to government agencies regarding compliance with federal equal
+opportunity guidelines. HR managers also use these data to evaluate hiring practices, evaluate salary structures, and manage any
+discrimination grievances or lawsuits brought against the firm.
+
+Databases help HR managers provide assistance to all employees as companies turn over more and more decisions about
+healthcare and retirement planning to the employees themselves. The employees can use the databases for help in selecting the
+optimal mix among these critical choices.
+
+HR managers also need to use a knowledge base frequently to find out how past cases were handled. Consistency in how
+employees are treated not only is important, but it also protects the company against legal actions. In addition, training for building,
+
+wee eet lie Ce a a 2 et te te a es ee tt
+
+< | Rs | >
+--- module3_chapter3_page3_1773026221234.png ---
+< Back Q A &, coo
+
+OIYMMNCANUY, MIU SML USETS Call GISU DE EXPIVILEU DECAUSE UIey lay UOWINOAU IIlally apps Wey Te MOL IMMleETeSteU Il SO lal Wey Call
+receive free data. Jana attempts to avoid this problem by personalizing mCent to users and by tracking the time that users spend on
+
+= Bawenes §=©Foundations of Data Analytics eee the apps they download. <
+es: 4 John W. Foreman Sources: Compiled from “Facebook's Internet.org ‘Not Scalable’ Claims Rival Startup mCent,” Mobile World Live, September 9, 2015; N.
+: Pahwa, “Google Joins Facebook in Trying to Prevent IAMAI from Taking Strong Anti-Zero Rating Stand,” Medianama, August 20, 2015; P.
+Olson, “This App Is Cashing in on Giving the World Free Data,” Forbes, July 29, 2015; N. Alawadhi, “Google Puts Zero Rating Plan in India on 0
+
+Backburner for Fear of Backlash,” The Times of India, May 28, 2015; S. Vijayakumar, “Jana Is in Full Support of Net Neutrality,” The Hindu, May
+8, 2015; J. Nanos, “Mobile App Marketplace Jana Pushes Deeper into the Developing World,” The Boston Globe, May 6, 2015; M. Godwin,
+“What the ‘Zero Rating’ Debate Reveals about Net Neutrality,” Reason.com, April 8, 2015; A. Howard, “Zero Rating Poses a Conundrum for Net
+Neutrality Advocates around the World,” TechRepublic, January 23, 2015; A. Drossos, “Forget Fast Lanes. The Real Threat Net-Neutrality Is
+
+a Zero-Rated Content,” GigaOM, April 26, 2014; M. Bergen, “Mobile Startup Jana Launches Tool to Reach Next Billion Consumers, on Their
+Phones,” Advertising Age, March 19, 2014; “Why Jana Will Help Marketers Reach the Next Billion Customers,” vivaki.com, July 15, 2013;
+
+Expand all | Collapse all
+
+v Module 1: The Value of Data ba http://jana.com, www.mcent.com, accessed October 11, 2015.
+«_ Module 2: Working with Data M2 Questions
+1. At first glance, giving away data for free seems to be a questionable business strategy. Describe how Jana's business model
+Chapter 1: Everything You Ever Needed to Know FI makes this practice a success.
+(Fora eoryaushests but Were Too Afraid to Ask 2. Why are Facebook and Google so interested in bringing Internet access to the developing world?
+oreman
+3. Discuss the pros and cons of the zero-rating system.
+A Module 3: Data Typologies and Governance M3 4. Is Jana correct in claiming that its system is not really a zero-rating system? Why or why not?
+This chapter will examine the processes whereby data are transformed first into information and then into knowledge. Managing data is
+v ee 3: Data and Knowledge Management R56 critically important in all organizations. Few business professionals are comfortable making or justifying business decisions that are not
+ainer,
+
+based on solid information. This is especially true today, when modern information systems make access to that information quick and
+easy. For example, we have information systems that format data in a way that managers and analysts can easily understand.
+
+“« Module 4: Business Statistics M4 Consequently, these professionals can access these data themselves and then analyze them according to their needs. The result is useful
+information. Managers can then apply their experience to use this information to address a business problem, thereby producing
+knowledge. Knowledge management, enabled by information technology, captures and stores knowledge in forms that all organizational
+
+VY Ghepitar 4 Prelealiitiy Gleas) B89 employees can access and apply, thereby creating the flexible, powerful “learning organization.”
+
+Organizations store data in databases. Recall from Chapter 1 that a database is a collection of related data files or tables containing data.
+
+vy Chapter 9: Statistical Inference: Hypothesis B265 We discuss databases in Section 3.2
+
+Testing for Single Populations (Black)
+Clearly, data and knowledge management are vital to modern organizations. But, why should you learn about them? The reason is that you
+will play an important role in the development of database applications. The structure and content of your organization's database depend
+
+02 LATO LATE WEI UTI Ree Ms on how users (you) define your business activities. For example, when database developers in the firm's MIS group build a database, they
+use a tool called entity-relationship (ER) modeling. This tool creates a model of how users view a business activity. When you understand
+v_ Module 6: Other Data Analytic Tools M6 how to create and interpret an ER model, then you can evaluate whether the developers have captured your business activities correctly.
+Keep in mind that decisions about data last longer, and have a broader impact, than decisions about hardware or software. If decisions
+v_ Module 7: Data Visualization M7 concerning hardware are wrong, then the equipment can be replaced relatively easily. If software decisions turn out to be incorrect, they
+can be modified, though not always painlessly or inexpensively. Database decisions, in contrast, are much harder to undo. Database
+End User License Agreement EULA design constrains what the organization can do with its data for a long time. Remember that business users will be stuck with a bad
+v database design, while the programmers who created the database will quickly move on to their next projects. bd
+
+a —-———e < Re | >
+
+4) Back to Page
+
+--- module3_chapter3_page32_1773027374118.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+os
+
+i OM John W. Foreman
+
+Expand all | Collapse all
+
+Summary
+Chapter Glossary
+Discussion Questions
+Problem-Solving Activities
+Closing Case 1
+Closing Case 2
+~« Module 4: Business Statistics
+vy Chapter 4: Probability (Black)
+
+vy Chapter 9: Statistical Inference: Hypothesis
+Testing for Single Populations (Black)
+
+vy Module 5: Optimization and Forecasting
+vy Module 6: Other Data Analytic Tools
+v_ Module 7: Data Visualization
+
+End User License Agreement
+
+a -—-
+
+4) Back to Page
+
+-
+R86
+
+R86
+R87
+R87
+R88
+R89
+
+M4
+B89
+
+B265
+
+M5
+M6
+M7
+
+EULA
+
+Q A
+
+The following are three common challenges in managing data:
+
+¢ Data are scattered throughout organizations and are collected by many individuals using various methods and devices. These data
+are frequently stored in numerous servers and locations and in different computing systems, databases, formats, and human and
+computer languages.
+
+¢ Data come from multiple sources.
+
+¢ Information systems that support particular business processes impose unique requirements on data, which results in repetition and
+conflicts across an organization.
+
+One strategy for implementing data governance is master data management. Master data management provides companies with the
+ability to store, maintain, exchange, and synchronize a consistent, accurate, and timely “single version of the truth” for the company's
+core master data. Master data management manages data gathered from across an organization, manages data from multiple sources,
+and manages data across business processes in an organization.
+
+2. Discuss the advantages and disadvantages of relational databases.
+
+Relational databases allow people to compare information quickly by row or column. In addition, items are easy to retrieve by finding the
+point of intersection of a particular row and column. On the other hand, large-scale relational databases can be composed of many
+interrelated tables, making the overall design complex with slow search and access times.
+
+3. Define Big Data and its basic characteristics.
+
+Big Data is composed of high volume, high velocity, and high variety information assets that require new forms of processing to enable
+enhanced decision making, insight discovery, and process optimization. Big Data has three distinct characteristics, which are volume,
+velocity, and variety.
+
+These characteristics distinguish Big Data from traditional data:
+¢ Volume: Big Data consists of vast quantities of data.
+¢ Velocity: Big Data flows into an organization at incredible speeds.
+¢ Variety: Big Data includes a huge variety of different data in differing data formats.
+
+4. Explain the elements necessary to successfully implement and maintain data warehouses.
+
+To successfully implement and maintain a data warehouse, an organization must:
+¢ Link source systems that provide data to the warehouse or mart.
+¢ Prepare the necessary data for the data warehouse using data integration technology and processes.
+¢ Decide on an appropriate architecture for storing data in the data warehouse or data mart.
+
+Select the tools and applications for the variety of organizational users.
+
+Ensure that metadata, data quality, and governance processes are in place to ensure that the data warehouse or mart meets its
+purposes.
+
+5. Describe the benefits and challenges of implementing knowledge management systems in organizations.
+Organizations can realize many benefits with KMSs, including:
+
+< | Re | >
+--- module3_chapter3_page33_1773027400899.png ---
+< Back Q A &, coo
+
+Se nHUWwIGUyS vase MuDSt YS LUTUTUarYy tmannanicu aru upuatcu. rm
+= Ewe Foundations of Data Analytics eee ¢ Companies must be willing to invest in the resources needed to carry out these operations. <
+John W. Foreman Chapter Glossary
+
+Dattribute Each characteristic or quality of a particular entity.
+
+best practices The most effective and efficient ways to do things.
+
+Expand all | Collapse all Big Data A collection of data so large and complex that it is difficult to manage using traditional database management systems.
+
+a bit A binary digit—that is, a0 ora 1.
+Summary R86 | byte A group of eight bits that represents a single character.
+clickstream data Data collected about user behavior and browsing patterns by monitoring users' activities when they visit a Web site.
+SPEED OSES) ee data file (also table) A collection of logically related records.
+MechesionOtestions R87 data governance An approach to managing information across an entire organization.
+data mart A low-cost, scaled-down version of a data warehouse that is designed for the end-user needs in a strategic business unit
+Problem-Solving Activities R87 (SBU)lorfaldepartment:
+data model A diagram that represents entities in the database and their relationships.
+Closing Case 1 R88 data warehouse A repository of historical data that are organized by subject to support decision makers in the organization.
+database management system (DBMS) The software program (or group of programs) that provides access to a database.
+Closing Case 2 R89 entity Any person, place, thing, or event of interest to a user.
+explicit knowledge The more objective, rational, and technical types of knowledge.
+© (Msshio<: Eushicss SEisites MA field A characteristic of interest that describes an entity.
+\ Chapter 4: Probability (Black) = foreign key A field (or group of fields) in one table that uniquely identifies a row (or record) of another table.
+instance Each row in a relational table, which is a specific, unique representation of the entity.
+~ Chapter 9: Statistical Inference: Hypothesis B265 intellectual capital (or intellectual assets) Other terms for knowledge.
+
+Vesting iter Sing|ts Repeulistionns Glaey knowledge management (KM) A process that helps organizations identify, select, organize, disseminate, transfer, and apply
+
+information and expertise that are part of the organization's memory and that typically reside within the organization in an unstructured
+vy Module 5: Optimization and Forecasting M5 manner.
+
+knowledge management systems (KMSs) Information technologies used to systematize, enhance, and expedite intra- and interfirm
+vy Module 6: Other Data Analytic Tools M6 knowledge management. |]
+
+master data A set of core data, such as customer, product, employee, vendor, geographic location, and so on, that spans an
+vy Module 7: Data Visualization M7 enterprise's information systems.
+
+master data management A process that provides companies with the ability to store, maintain, exchange, and synchronize a
+End User License Agreement EULA consistent, accurate, and timely “single version of the truth” for the company's core master data.
+
+4
+
+| =e Ft) >
+
+4) Back to Page
+
+--- module3_chapter3_page4_1773026385576.png ---
+< Back
+
+H
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+>
+
+Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+>
+
+Module 3: Data Typologies and Governance
+
+v_ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+>
+
+Module 4: Business Statistics
+vy Chapter 4: Probability (Black)
+
+vy Chapter 9: Statistical Inference: Hypothesis
+Testing for Single Populations (Black)
+
+v_ Module 5: Optimization and Forecasting
+v_ Module 6: Other Data Analytic Tools
+v_ Module 7: Data Visualization
+
+End User License Agreement
+
+en |
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+M4
+
+B89
+
+B265
+
+M5
+
+M6
+
+M7
+
+EULA
+
+4
+
+Q A
+
+get database designs right the first time—and you will play a key role in these designs.
+
+In addition, you might want to create a small, personal database using a software product such as Microsoft Access. In that case, you will
+need to be familiar with at least the basics of the product.
+
+After the data are stored in your organization's databases, they must be accessible to users in a form that helps them make decisions.
+Organizations accomplish this objective by developing data warehouses. You should become familiar with data warehouses because they
+are invaluable decision-making tools. We discuss data warehouses in Section 3.4.
+
+You will also make extensive use of your organization's knowledge base to perform your job. For example, when you are assigned a new
+project, you will likely research your firm's knowledge base to identify factors that contributed to the success (or failure) of previous, similar
+projects. We discuss knowledge management in Section 3.5..
+
+You begin this chapter by examining the multiple problems involved in managing data. You then study the database approach that
+organizations use to help solve these problems. You turn your attention to Big Data, which organizations must manage in today's business
+environment. Next, you study data warehouses and data marts, and you learn how to utilize them for decision making. You finish the
+chapter by examining knowledge management.
+
+3.1 Managing Data
+
+All IT applications require data. These data should be of high quality, meaning that they should be accurate, complete, timely, consistent,
+accessible, relevant, and concise. Unfortunately, the process of acquiring, keeping, and managing data is becoming increasingly difficult.
+
+The Difficulties of Managing Data
+
+Because data are processed in several stages and often in multiple locations, they are frequently subject to problems and difficulties.
+Managing data in organizations is difficult for many reasons.
+
+First, the amount of data increases exponentially with time. Much historical data must be kept for a long time, and new data are added
+rapidly. For example, to support millions of customers, large retailers such as Walmart have to manage petabytes of data. (A petabyte is
+approximately 1,000 terabytes, or trillions of bytes; see Plug IT In 2.)
+
+In addition, data are also scattered throughout organizations, and they are collected by many individuals using various methods and
+devices. These data are frequently stored in numerous servers and locations and in different computing systems, databases, formats, and
+human and computer languages.
+
+Another problem is that data are generated from multiple sources: internal sources (for example, corporate databases and company
+documents); personal sources (for example, personal thoughts, opinions, and experiences); and external sources (for example, commercial
+databases, government reports, and corporate Web sites). Data also come from the Web, in the form of clickstream data. Clickstream
+data are those data that visitors and customers produce when they visit a Web site and click on hyperlinks (described in Chapter 4).
+Clickstream data provide a trail of the users’ activities in the Web site, including user behavior and browsing patterns.
+
+Adding to these problems is the fact that new sources of data, such as blogs, podcasts, videocasts, and RFID tags and other wireless
+sensors, are constantly being developed and the data these technologies generate must be managed. In addition, data degrade over time.
+For example, customers move to new addresses or change their names, companies go out of business or are bought, new products are
+developed, employees are hired or fired, and companies expand into new countries.
+
+Data are also subject to data rot. Data rot refers primarily to problems with the media on which the data are stored. Over time, temperature,
+
+wo 8 i er ee sa Se tee te a
+
+--- module3_chapter3_page5_1773026407299.png ---
+< Back
+
+Bawenes §=©Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+“Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+v_ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+~ Module 4: Business Statistics
+vy Chapter 4: Probability (Black)
+
+vy Chapter 9: Statistical Inference: Hypothesis
+Testing for Single Populations (Black)
+
+v_ Module 5: Optimization and Forecasting
+v_ Module 6: Other Data Analytic Tools
+v_ Module 7: Data Visualization
+
+End User License Agreement
+
+M1
+
+M2
+
+Fl
+
+M3
+
+R56
+
+M4
+
+B89
+
+B265
+
+M5
+
+M6
+
+M7
+
+EULA
+
+Module 4
+Business Statistics
+
+Statistics is the foundation on which data mining is built. As such, the interactive lessons in this module, Lesson 4.1: Introduction to Business
+Statistics and Lesson 4.2: Probability, Distributions, and Hypothesis Testing, expand on the analysis that can be done on different types of
+data, introduce different descriptive and predictive data mining techniques, and explore different statistical concepts, including probability,
+sampling, and hypothesis testing. The ebook readings provide many examples of how statistics have been used in different organizations to
+
+a solve problems. They also provide details concerning the specific steps to use in order to assess the probability of future events, or
+combination of events, as well as illustrate how to form a hypothesis and assess the results of hypothesis testing.
+
+4
+--- module3_chapter3_page5_1773026473353.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—-®
+
+4) Back to Page
+
+M1
+
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+
+R57
+
+R60
+
+R62
+
+R66
+
+R75
+
+R81
+
+Q A
+3.1 Managing Data
+
+All IT applications require data. These data should be of high quality, meaning that they should be accurate, complete, timely, consistent,
+accessible, relevant, and concise. Unfortunately, the process of acquiring, keeping, and managing data is becoming increasingly difficult.
+
+The Difficulties of Managing Data
+
+Because data are processed in several stages and often in multiple locations, they are frequently subject to problems and difficulties.
+Managing data in organizations is difficult for many reasons.
+
+First, the amount of data increases exponentially with time. Much historical data must be kept for a long time, and new data are added
+rapidly. For example, to support millions of customers, large retailers such as Walmart have to manage petabytes of data. (A petabyte is
+approximately 1,000 terabytes, or trillions of bytes; see Plug IT In 2.)
+
+In addition, data are also scattered throughout organizations, and they are collected by many individuals using various methods and
+devices. These data are frequently stored in numerous servers and locations and in different computing systems, databases, formats, and
+human and computer languages.
+
+Another problem is that data are generated from multiple sources: internal sources (for example, corporate databases and company
+documents); personal sources (for example, personal thoughts, opinions, and experiences); and external sources (for example, commercial
+databases, government reports, and corporate Web sites). Data also come from the Web, in the form of clickstream data. Clickstream
+data are those data that visitors and customers produce when they visit a Web site and click on hyperlinks (described in Chapter 4).
+Clickstream data provide a trail of the users’ activities in the Web site, including user behavior and browsing patterns.
+
+Adding to these problems is the fact that new sources of data, such as blogs, podcasts, videocasts, and RFID tags and other wireless
+sensors, are constantly being developed and the data these technologies generate must be managed. In addition, data degrade over time.
+For example, customers move to new addresses or change their names, companies go out of business or are bought, new products are
+developed, employees are hired or fired, and companies expand into new countries.
+
+Data are also subject to data rot. Data rot refers primarily to problems with the media on which the data are stored. Over time, temperature,
+humidity, and exposure to light can cause physical problems with storage media and thus make it difficult to access the data. The second
+aspect of data rot is that finding the machines needed to access the data can be difficult. For example, it is almost impossible today to find
+8-track players. Consequently, a library of 8-track tapes has become relatively worthless, unless you have a functioning 8-track player or
+you convert the tapes to a modern medium such as CDs.
+
+Data security, quality, and integrity are critical, yet they are easily jeopardized. In addition, legal requirements relating to data differ among
+countries as well as among industries, and they change frequently.
+
+Another problem arises from the fact that, over time, organizations have developed information systems for specific business processes,
+such as transaction processing, supply chain management, and customer relationship management. Information systems that specifically
+support these processes impose unique requirements on data, which results in repetition and conflicts across the organization. For
+example, the marketing function might maintain information on customers, sales territories, and markets. These data might be duplicated
+within the billing or customer service functions. This situation can produce inconsistent data within the enterprise. Inconsistent data prevent
+a company from developing a unified view of core business information—data concerning customers, products, finances, and so on—
+across the organization and its information systems.
+
+/\aeum Two other factors complicate data management. First, federal regulations—for example, the Sarbanes—Oxley Act of 2002—have
+
+AIR FEL fe relia Bove neem fie Dae Pen even 0. Ae Preann yon oe meena fiee AaGert ey Ree arta ne (Bn flenn come nfa ne Mah 11 re
+
+< | R60 | >
+
+--- module3_chapter3_page6_1773026540648.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+oe
+
+John W. Foreman
+
+ag
+
+Expand all | Collapse all
+vy Module 1: The Value of Data
+«_ Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+a -—®
+
+4) Back to Page
+
+M1
+M2
+
+FI
+
+M3
+
+R56
+
+R56
+R57
+R60 |
+R62
+R66
+R75
+
+R81
+
+Q A
+
+approach to managing information across an entire organization. It involves a formal set of business processes and policies that are
+designed to ensure that data are handled in a certain, well-defined fashion. That is, the organization follows unambiguous rules for creating,
+collecting, handling, and protecting its information. The objective is to make information available, transparent, and useful for the people
+who are authorized to access it, from the moment it enters an organization until it is outdated and deleted.
+
+One strategy for implementing data governance is master data management. Master data management is a process that spans all
+organizational business processes and applications. It provides companies with the ability to store, maintain, exchange, and synchronize a
+consistent, accurate, and timely “single version of the truth” for the company's master data.
+
+Master data are a set of core data, such as customer, product, employee, vendor, geographic location, and so on, that span the enterprise
+information systems. It is important to distinguish between master data and transaction data. Transaction data, which are generated and
+captured by operational systems, describe the business's activities, or transactions. In contrast, master data are applied to multiple
+transactions and are used to categorize, aggregate, and evaluate the transaction data.
+
+Let's look at an example of a transaction: You (Mary Jones) purchase one Samsung 42-inch plasma television, part number 1234, from Bill
+Roberts at Best Buy, for $2,000, on April 20, 2015. In this example, the master data are “product sold,” “vendor,” “salesperson,” “store,”
+“part number,” “purchase price,” and “date.” When specific values are applied to the master data, then a transaction is represented.
+Therefore, transaction data would be, respectively, “42-inch plasma television,” “Samsung,” “Best Buy,” “Bill Roberts,” “1234,” “$2,000,” and
+“April 20, 2015.”
+
+An example of master data management is Dallas, Texas, which implemented a plan for digitizing the city's public and private records, such
+as paper documents, images, drawings, and video and audio content. The master database can be utilized by any of the 38 government
+departments that have appropriate access. The city is also integrating its financial and billing processes with its customer relationship
+management program. (You will learn about customer relationship management in Chapter 12.)
+
+How will Dallas utilize this system? Imagine that the city experiences a water-main break. Before it implemented the system, repair crews
+had to search City Hall for records that were filed haphazardly. Once the workers found the hard-copy blueprints, they would take them to
+the site and, after examining them manually, would decide on a plan of action. In contrast, the new system delivers the blueprints wirelessly
+to the laptops of crews in the field, who can magnify or highlight areas of concern to generate a rapid response. This process reduces the
+time it takes to respond to an emergency by several hours.
+
+Along with data governance, organizations use the database approach to efficiently and effectively manage their data. We discuss the
+database approach in Section 3.2.
+
+Before you go on...
+
+1. What are some of the difficulties involved in managing data?
+2. Define data governance, master data, and transactional data.
+
+Apply the Concept 3.1
+
+Learning Objective 3.1
+Discuss ways that common challenges in managing data can be addressed using data governance.
+STEP 1: Background (Here is what you are learning.)
+
+--- module3_chapter3_page7_1773026598304.png ---
+<€ Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+“Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+4) Back to Page
+
+M1
+M2
+
+Fl
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62 |
+R66
+R75
+
+R81
+
+Q A &, eco
+3.2 The Database Approach “
+<
+From the mid-1950s, when businesses first adopted computer applications, until the early 1970s, organizations managed their data in a file
+management environment. This environment evolved because organizations typically automated their functions one application at a time.
+Therefore, the various automated systems developed independently from one another, without any overall planning. Each application
+required its own data, which were organized in a data file.
+A data file is a collection of logically related records. In a file management environment, each application has a specific data file related to
+it. This file contains all of the data records the application requires. Over time, organizations developed numerous applications, each with
+an associated, application-specific data file. @
+For example, imagine that most of your information is stored in your university's central database, but a club to which you belong maintains
+its own files, the athletics department has separate files for student athletes, and your instructors maintain grade data on their personal
+computers. It is easy for your name to be misspelled in one of these databases or files. Similarly, if you move, then your address might be
+updated correctly in one database or file but not in others.
+Using databases eliminates many problems that arose from previous methods of storing and accessing data, such as file management
+systems. Databases are arranged so that one set of software programs—the database management system—provides all users with
+access to all of the data. (You will study database management systems later in this chapter.) Database systems minimize the following
+problems:
+¢ Data redundancy: The same data are stored in multiple locations.
+¢ Data isolation: Applications cannot access data associated with other applications.
+¢ Data inconsistency: Various copies of the data do not agree.
+In addition, database systems maximize the following:
+¢ Data security: Because data are “put in one place” in databases, there is a risk of losing a lot of data at one time. Therefore, databases
+must have extremely high security measures in place to minimize mistakes and deter attacks.
+¢ Data integrity: Data meet certain constraints; for example, there are no alphabetic characters in a Social Security number field.
+¢ Data independence: Applications and data are independent of one another; that is, applications and data are not linked to each other, so
+all applications are able to access the same data.
+Figure 3.1 illustrates a university database. Note that university applications from the registrar's office, the accounting department, and the
+athletics department access data through the database management system.
+Registrar's
+office
+Accounting
+department
+< | R62 >
+--- module3_chapter3_page8_1773026626912.png ---
+< Back
+
+FOUNDATIONS OF
+
+Foundations of Data Analytics
+
+John W. Foreman
+
+Expand all | Collapse all
+
+vy Module 1: The Value of Data
+
+“Module 2: Working with Data
+
+vy Chapter 1: Everything You Ever Needed to Know
+about Spreadsheets but Were Too Afraid to Ask
+(Foreman)
+
+“Module 3: Data Typologies and Governance
+
+“A _ Chapter 3: Data and Knowledge Management
+(Rainer)
+
+Opening Case
+
+Introduction
+
+3.1 Managing Data
+
+3.2 The Database Approach
+
+3.3 Big Data
+
+3.4 Data Warehouses and Data Marts
+
+3.5 Knowledge Management
+
+4) Back to Page
+
+M1
+M2
+
+Fl
+
+M3
+
+R56
+
+R56
+R57
+R60
+R62 |
+R66
+R75
+
+R81
+
+Q A
+
+Data are organized in a hierarchy that begins with bits and proceeds all the way to databases (see Figure 3.2). A bit (binary digit)
+represents the smallest unit of data a computer can process. The term binary means that a bit can consist only of a 0 or a 1. A group of
+eight bits, called a byte represents a single character. A byte can be a letter, a number, or a symbol. A logical grouping of characters into a
+word, a small group of words, or an identification number is called a field. For example, a student's name in a university's computer files
+would appear in the “name” field, and her or his Social Security number would appear in the “Social Security number” field. Fields can also
+contain data other than text and numbers. They can contain an image, or any other type of multimedia. Examples are a motor vehicle
+department's licensing database that contains a driver's photograph and a field that contains a voice sample to authorize access to a
+secure facility.
+
+[sername [ —
+fon 0) [ a oon 01) ~ |
+0 1
+
+(1001011) 0000)
+
+[ (101
+—
+
+Figure 3.2 Hierarchy of data for a computer-based file.
+
+A logical grouping of related fields, such as the student's name, the courses taken, the date, and the grade, comprises a record. In the
+Apple iTunes Store, a song is a field in a record, with other fields containing the song's title, its price, and the album on which it appears. A
+logical grouping of related records is called a data file or a table. For example, a grouping of the records from a particular course,
+consisting of course number, professor, and students' grades, would constitute a data file for that course. Continuing up the hierarchy, a
+logical grouping of related files constitutes a database. Using the same example, the student course file could be grouped with files on
+students’ personal histories and financial backgrounds to create a student database. In the next section, you will learn about relational
+database model.
+
+The Relational Database Model
+
+A database management system (DBMS) is a set of programs that provide users with tools to create and manage a database. Managing
+a database refers to the processes of adding, deleting, accessing, modifying, and analyzing data stored in a database. An organization can
+access the data by using query and reporting tools that are part of the DBMS or by using application programs specifically written to
+perform this function. DBMSs also provide the mechanisms for maintaining the integrity of stored data, managing security and user access,
+and recovering information if the system fails. Because databases and DBMSs are essential to all areas of business, they must be carefully
+managed.
+
+< | Re | >
+--- module3_chapter3_page9_1773026656862.png ---
+< Back Q A &, coo
+
+To be valuable, a relational database must be organized so that users can retrieve, analyze, and understand the data they need. A key to a
+= Ered Foundations of Data Analytics eee designing an effective database is the data model. A data model is a diagram that represents entities in the database and their — <
+relationships. An entity is a person, place, thing, or event—such as a customer, an employee, or a product—about which information is
+John W. Foreman maintained. Entities can typically be identified in the user's work environment. A record generally describes an entity. An instance of an
+
+entity refers to each row in a relational table, which is a specific, unique representation of the entity. For example, your university's student
+database contains an entity called student. An instance of the student entity would be a particular student. For instance, you are an
+instance of the student entity in your university's student database.
+
+Each characteristic or quality of a particular entity is called an attribute. For example, if our entities were a customer, an employee, and a
+
+Expand all | Collapse all product, entity attributes would include customer name, employee number, and product color.
+“ Consider the relational database example about students diagrammed in Figure 3.3. The table contains data about the entity called
+v_ Module 1: The Value of Data M1 students. As you can see, each row of the table corresponds to one student record. (You have your own row in your university's student @
+database.) Attributes of the entity are student name, undergraduate major, grade point average, and graduation date. The rows are the
+‘Module 2: Working with Data M2 records on Sally Adams, John Jones, Jane Lee, Kevin Durham, Juan Rodriguez, Stella Zubnicki, and Ben Jones. Of course, your university
+
+keeps much more data on you than our example shows. In fact, your university's student database probably keeps hundreds of attributes
+on each student.
+
+vy Chapter 1: Everything You Ever Needed to Know F1
+about Spreadsheets but Were Too Afraid to Ask B Microsoft Access
+(Foreman)
+E student Name = |, Arial
+~ Module 3: Data Typologies and Governance M3
+® Toble1 ; Table
+«Chapter 3: Data and Knowledge Management R56 J Gt284s Foasce
+: ones g counting
+(Rainer) 154676 MS
+‘evin Durham 823459 Economics
+uan Rodriguez. 396789 Marketing
+Opening Case R56 onicki 285856 _ Operations Man
+es 720065 Finance
+Introduction R57
+3.1 Managing Data R60
+3.2 The Database Approach R62 |
+3.3 Big Data R66
+3.4 Data Warehouses and Data Marts R75 Figure 3.3 Student database example.
+Every record in the database must contain at least one field that uniquely identifies that record so that it can be retrieved, updated, and
+3.5 Knowledge Management R81 sorted. This identifier field (or attribute) is called the primary key. For example, a student record in a U.S. university would use a unique
+
+v student number as its primarv kev. (Note: In the past. vour Social Securitv number served as the orimarv kev for vour student record. a
+
+a. —OOONO HT TTT 5 < | rea | >
+
+4) Back to Page
+
